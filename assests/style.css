@@ -1,0 +1,36 @@
+:root {
+    --light: #92ccd0;
+    --dark: #445976;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--dark);
+    background-color: var(light);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31343D;
+    height: 80px;
+}
+
+h1 {
+    
+    background-color: var(--light);
+    bottom: 5px;
+    position: relative;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+    color: var(--light);
+    text-decoration: underline;
+
+}
