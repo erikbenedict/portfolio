@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #31343D;
-    height: 80px;
+    /* height: 10vh; */
 }
 
 h1 {
@@ -25,6 +25,7 @@ h1 {
     background-color: var(--light);
     bottom: 5px;
     position: relative;
+    margin: 1.25rem 0;
 }
 
 nav li{
@@ -33,4 +34,9 @@ nav li{
     color: var(--light);
     text-decoration: underline;
 
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light);
 }
