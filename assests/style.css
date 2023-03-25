@@ -1,6 +1,8 @@
 :root {
     --light: #92ccd0;
     --dark: #445976;
+    --header: #31343D;
+    --background: #EDEEF6
 }
 
 body {
@@ -8,7 +10,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
     color: var(--dark);
-    background-color: var(light);
+    background-color: var(--background);
 }
 
 header {
@@ -17,7 +19,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #31343D;
-    /* height: 10vh; */
+    padding: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 h1 {
@@ -25,12 +29,15 @@ h1 {
     background-color: var(--light);
     bottom: 5px;
     position: relative;
-    margin: 1.25rem 0;
+    margin: .6rem 0 0 0;
+    padding: 0 1rem 0 5rem;
+    color: var(--header);
+
 }
 
 nav li{
     display: inline;
-    padding: 10px;
+    padding-right: 100px;
     color: var(--light);
     text-decoration: underline;
 
@@ -39,4 +46,30 @@ nav li{
 nav a {
     text-decoration: none;
     color: var(--light);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assests/images/Elden\ Ring\ Screenshot\ 2023.02.27\ -\ 22.51.09.42.png);
+    display: flex;
+    flex-direction: row-reverse;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin: 0;
+    position: relative;
+
+}
+
+.hero-text p {
+    justify-content: flex-end;
+    background: var(--light);
+    color: var(--header);
+    margin: 15rem 5rem 0 0;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
 }
