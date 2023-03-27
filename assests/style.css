@@ -123,15 +123,39 @@ main {
     width: 75%;
 }
 
-.projects {
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.25rem .6rem;
+    width: 100%;
+    margin: 1.5rem 0;
+
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: .6rem;
     width: 75%;
 }
 
-.project-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: .6rem;
+.project a {
+    border: .3rem solid var(--light);
     overflow: hidden;
-    color: var(--light);
+    color: var(--dark);
+}
+
+.project img:hover {
+    filter: brightness(50%);
+}
+
+.surf {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
