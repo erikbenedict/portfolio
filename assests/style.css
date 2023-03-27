@@ -87,17 +87,17 @@ nav a:hover {
     top: 350px;
     background: var(--light);
     color: var(--header);
-    font-size: 35px;
-    padding: 5px;
+    font-size: 2rem;
+    padding: .3rem;
     width: auto;
-    font-weight: 700;
+    font-weight: 650;
 }
 
 main {
     padding: 1.5rem 3rem;
 }
 
-.about {
+.about, .work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -106,7 +106,7 @@ main {
     margin: 1.5rem 0;
 }
 
-.about-header {
+.section-title {
     font-size: 2rem;
     border-right: .3rem solid var(--dark);
     padding: .6rem;
@@ -122,3 +122,16 @@ main {
     margin: .6rem;
     width: 75%;
 }
+
+.projects {
+    width: 75%;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .6rem;
+    overflow: hidden;
+    color: var(--light);
+}
+
