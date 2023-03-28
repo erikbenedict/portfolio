@@ -22,7 +22,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #31343D;
+    background-color: var(--header);
     padding: .3rem 0 1.5rem 0;
 }
 
@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url(/assests/images/Elden\ Ring\ Screenshot\ 2023.02.27\ -\ 22.51.09.42\ \(2\).png);
+    background-image: url(/assests/images/hero.jpg);
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -78,6 +78,11 @@ nav a:hover {
     margin: 0;
     position: relative;
 
+}
+
+.headshot {
+    width: 15%;
+    border: .5rem solid var(--light);
 }
 
 .hero-text h2 {
@@ -114,10 +119,6 @@ main {
     width: 15%;
 }
 
-.about p {
-    margin: .6rem;
-}
-
 .about-details{
     margin: .6rem;
     width: 75%;
@@ -139,6 +140,7 @@ main {
     justify-content: space-between;
     margin: .6rem;
     width: 75%;
+
 }
 
 .project a {
@@ -146,16 +148,68 @@ main {
     overflow: hidden;
     color: var(--dark);
 }
-
-.project img:hover {
-    filter: brightness(50%);
+.project a:hover {
+    filter: brightness(70%);
 }
 
-.surf {
+.card-surf {
+    display: flex;
     position: relative;
     width: 100%;
-    height: 30rem;
+    height: 20rem;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.card {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-text {
+    position: absolute;
+    background-color: var(--light);
+    top: 14rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+
+footer li{
+    list-style: none;
+    margin-right: 10rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 1.5rem;
+    padding: .15rem .3rem;
+    border-bottom: .2rem solid var(--dark);
+    transition: color 0.2s;
+}
+
+footer address {
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover {
+    color: var(--header);
+    background: var(--light);
+}
