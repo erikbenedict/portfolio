@@ -5,10 +5,14 @@
 }
 
 :root {
-    --light: #92ccd0;
+    /* --light: #92ccd0;
     --dark: #445976;
     --header: #31343D;
-    --background: #EDEEF6
+    --background: #EDEEF6 */
+    --light: #ccb34c;
+    --dark: #281b14;
+    --header: #281b14;
+    --background: #9e9284;
 }
 
 body {
@@ -49,7 +53,7 @@ nav ul {
 
 nav li{
     list-style: none;
-    margin: 0 .3rem;
+    margin: 1rem;
 }
 
 nav a {
@@ -212,4 +216,5 @@ footer address {
 footer a:hover {
     color: var(--header);
     background: var(--light);
+    border-bottom: .2rem solid var(--light);
 }
