@@ -71,7 +71,7 @@ nav a:hover {
 
 /* * hero section * */
 .hero {
-    background-image: url(/assests/images/hero.jpg);
+    background-image: url(/assets/images/hero.jpg);
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
