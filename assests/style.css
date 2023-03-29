@@ -1,28 +1,25 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root {
-    /* --light: #92ccd0;
-    --dark: #445976;
-    --header: #31343D;
-    --background: #EDEEF6 */
     --light: #ccb34c;
     --dark: #281b14;
     --header: #281b14;
     --background: #9e9284;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 1.5;
     color: var(--dark);
     background-color: var(--background);
 }
 
+/* * header section * */
 header {
     display: flex;
     justify-content: space-between;
@@ -70,42 +67,54 @@ nav a:hover {
     background: var(--light);
 }
 
-main {
-    padding: 1.5rem 3rem;
-}
 
+
+/* * hero section * */
 .hero {
     background-image: url(/assests/images/hero.jpg);
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
     margin-bottom: 2rem;
-    position: relative;
+    /* position: relative; */
 
 }
 
 .headshot {
-    width: 15%;
+    width: 20%;
     border: .5rem solid var(--light);
     margin: .5rem;
+    background-position: center;
+    background-repeat: no-repeat;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.hero-text h2 {
-    justify-content: flex-end;
+.hero h2 {
+    display: inline-block;
+    width: 22%;
+    height: 10%;
+    margin: 18rem 10rem 0 0;
+    /* justify-content: flex-end;
     position: absolute;
     right: 150px;
-    top: 250px;
+    top: 250px; */
     background: var(--light);
     color: var(--header);
     font-size: 2rem;
     padding: .3rem;
     font-weight: 650;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* * main section * */
+main {
+    padding: 1.5rem 3rem;
 }
 
 .about, .work, footer {
@@ -125,11 +134,13 @@ main {
     width: 15%;
 }
 
+/* * about content * */
 .about-details{
     margin: .6rem;
     width: 75%;
 }
 
+/* * work section * */
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +180,7 @@ main {
 .project-text {
     position: absolute;
     background-color: var(--light);
-    top: 14rem;
+    top: 8rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -179,6 +190,7 @@ main {
     object-fit: cover;
 }
 
+/* * footer section * */
 address {
     display: flex;
     justify-content: space-between;
