@@ -224,3 +224,48 @@ address a:hover {
     background: var(--light);
     border-bottom: .2rem solid var(--light);
 }
+
+/* ! media queries ! */
+/* * screen <= 1024px * */
+@media screen and (max-width: 1024px) {
+    /* * header section * */
+    h1 {
+        font-size: 2rem;
+        padding-left: 1.5rem;
+    }
+
+    nav {
+        margin-right: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        border-bottom: .1rem solid;
+    }
+
+    /* * hero section * */
+    .hero h2 {
+        font-size: 1.75rem;
+    }
+
+    /* * main section * */
+    main {
+        padding: 0 2rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        width: 20%;
+        padding: .3rem;
+        border-right: .15rem solid;
+    }
+
+    /* * about section content */
+    .about-details {
+        font-size: 1.5rem;
+    }
+
+    /* * work section */
+    
+
+}
