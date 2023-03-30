@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     background-color: var(--light);
     margin: .6rem 0 0 0;
     padding: 0 1rem 0 5rem;
@@ -230,7 +230,7 @@ address a:hover {
 @media screen and (max-width: 1024px) {
     /* * header section * */
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding-left: 1.5rem;
     }
 
@@ -290,4 +290,36 @@ address a:hover {
 /* * screen size <= 768px */
 @media screen and (max-width: 768px) {
     /* * header section * */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: .5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+
+    /* * hero section */
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .headshot {
+        width: 94%;
+    }
+
+    .hero-h2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero h2 {
+        margin: 0 0 .5rem 0;
+        width: 100%;
+    }
+    
 }
