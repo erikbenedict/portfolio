@@ -164,15 +164,17 @@ main {
     height: 20rem;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: .7rem;
 }
 
 .card {
     display: flex;
     position: relative;
-    width: 50%;
+    width: 49.5%;
     height: 20rem;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: .5rem;
 }
 
 .project-text {
