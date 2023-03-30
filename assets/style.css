@@ -102,7 +102,7 @@ nav a:hover {
     margin:12rem 8rem 0 0;
     background: var(--light);
     color: var(--header);
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: .3rem;
     font-weight: 650;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -184,7 +184,8 @@ main {
 
 .project-img img {
     max-width: 100%;
-    height: auto;
+    min-height: 100%;
+    /* height: auto; */
     object-fit: cover;
 }
 
@@ -192,7 +193,6 @@ main {
 address {
     display: flex;
     justify-content: space-between;
-    
     margin: .6rem;
     width: 75%;
 }
@@ -206,6 +206,7 @@ address ul {
 address li{
     list-style: none;
     font-style: normal;
+    padding: 1.75rem;
 }
 
 address a {
@@ -215,7 +216,7 @@ address a {
     padding: .15rem .3rem;
     border-bottom: .2rem solid var(--dark);
     transition: color 0.2s;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 address a:hover {
@@ -228,6 +229,7 @@ address a:hover {
 
 /* * screen <= 1024px * */
 @media screen and (max-width: 1024px) {
+
     /* * header section * */
     h1 {
         font-size: 2.5rem;
@@ -244,15 +246,17 @@ address a:hover {
     }
 
     /* * hero section * */
+
     .headshot {
         width: 80%;
     }
     .hero h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 12rem 5rem 0 0;
     }
 
     /* * main section * */
+
     main {
         padding: 0 2rem;
     }
@@ -265,11 +269,13 @@ address a:hover {
     }
 
     /* * about section content */
+
     .about-details {
         font-size: 1.25rem;
     }
 
     /* * work section */
+
     .card-surf, .card {
         height: 12rem;
     }
@@ -280,16 +286,22 @@ address a:hover {
     }
 
     /* * contact section * */
+
+    address li {
+        padding: 1rem;
+    }
+
     address a {
         font-size: 1.25rem;
-        margin-left: 2rem;
     }
 
 }
 
 /* * screen size <= 768px */
 @media screen and (max-width: 768px) {
+
     /* * header section * */
+
     header {
         flex-direction: column;
         align-items: center;
@@ -299,9 +311,12 @@ address a:hover {
     h1 {
         font-size: 2rem;
         padding: 0 1rem;
+        width: 90%;
+        text-align: center;
     }
 
     /* * hero section */
+
     .hero {
         flex-direction: column;
         align-items: center;
@@ -321,5 +336,69 @@ address a:hover {
         margin: 0 0 .5rem 0;
         width: 100%;
     }
+
+    /* * main section * */
+
+    main {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* * about section * */
+
+    .about, .work, .contact {
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem 0;
+        align-items: center;
+        padding: 0;
+    }
+
+    .section-title {
+        width: auto;
+        text-align: center;
+        border-bottom: .15rem solid;
+        border-right: none;
+    }
+
+    .about-details {
+        text-align: center;
+
+    }
+
+    /* * work section */
+
+    .card-surf, .card {
+        height: 10rem;
+    }
+
+    .project-text {
+        font-size: 1.25rem;
+        top: 3rem;
+    }
+
+    /* * contact section * */
+
+    address li {
+        padding: .5rem;
+    }
+
+    address a {
+        font-size: 1.25rem;
+        margin-left: 0;
+    }
+   
+}
+
+/* * screen size <= 580px * */
+@media screen and (max-width: 580px) {
     
+    /* * header section * */
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
 }
