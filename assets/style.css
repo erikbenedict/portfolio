@@ -156,7 +156,7 @@ main {
     filter: brightness(70%);
 }
 
-.card-surf {
+.card-horiseon {
     display: flex;
     position: relative;
     width: 100%;
@@ -276,7 +276,7 @@ address a:hover {
 
     /* * work section */
 
-    .card-surf {
+    .card-horiseon {
         height: 20rem;
     }
 
@@ -373,7 +373,7 @@ address a:hover {
 
     /* * work section */
 
-    .card-surf {
+    .card-horiseon {
         height: 15rem;
     }
 
@@ -424,7 +424,7 @@ address a:hover {
     }
 
     /* * work section * */
-    .card-surf, .card {
+    .card-horiseon, .card {
         width: 100%;
         height: 10rem;
     }
