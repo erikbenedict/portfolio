@@ -19,8 +19,7 @@ Here is a list of my motivations for this project!
 
 ## Screenshots
 
-![alt text](./assets/images/Screenshot-1.png)
-![alt text](./assets/images/Screenshot-2.png)
+![alt text](./assets/images/screenshot.png)
 
 ## Author
 
