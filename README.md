@@ -4,10 +4,6 @@
 
 This project hits multiple concepts that help shape a new developer. It has allowed us to deepen our skills in web development by using HTML and CSS together to make a portfolio from scratch, in addition to making sure that we had a responsive layout that adapts to the user's viewport. The ultimate goal was to create a place for our future employers to see our work.
 
-## Deployed Webpage
-
-[Click here to go to my fully deployed website!](https://erikbenedict.github.io/portfolio/)
-
 ## Motivation
 
 Here is a list of my motivations for this project!
@@ -16,6 +12,10 @@ Here is a list of my motivations for this project!
 - Develop a sense for how I wanted to be seen as a developer
 - Explore different ways to achieve a layout that fits my needs
 - To present a project that I was able to build from scratch and show it to the world
+
+## Deployed Webpage
+
+[Click here to go to my fully deployed website!](https://erikbenedict.github.io/portfolio/)
 
 ## Screenshots
 
